@@ -3,7 +3,7 @@ def main():
     i = 0
 
     while i < 5:
-        num = int(input('Enter your input: '))
+        num = int(input(f"Enter number {i + 1}: "))
         total += num
         i += 1
 
